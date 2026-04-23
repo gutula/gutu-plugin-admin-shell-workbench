@@ -54,6 +54,11 @@ Hosts the universal admin desk and turns resource, route, widget, and workspace 
 | Field | Value |
 | --- | --- |
 | Depends On | `auth-core`, `org-tenant-core`, `role-policy-core`, `dashboard-core` |
+| Recommended Plugins | None |
+| Capability Enhancing | None |
+| Integration Only | None |
+| Suggested Packs | None |
+| Standalone Supported | Yes |
 | Requested Capabilities | `ui.mount:admin`, `data.read.settings` |
 | Provides Capabilities | `ui.shell.admin`, `ui.admin.widgets`, `ui.admin.pages`, `ui.admin.reports`, `ui.admin.builders` |
 | Owns Data | None |

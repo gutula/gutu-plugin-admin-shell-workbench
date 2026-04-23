@@ -51,11 +51,26 @@ This tier is justified because unit coverage exists, and contract coverage exist
 | Manifest ID | `admin-shell-workbench` |
 | Repo | [gutu-plugin-admin-shell-workbench](https://github.com/gutula/gutu-plugin-admin-shell-workbench) |
 | Depends On | `auth-core`, `org-tenant-core`, `role-policy-core`, `dashboard-core` |
+| Recommended Plugins | None |
+| Capability Enhancing | None |
+| Integration Only | None |
+| Suggested Packs | None |
+| Standalone Supported | Yes |
 | Requested Capabilities | `ui.mount:admin`, `data.read.settings` |
 | Provided Capabilities | `ui.shell.admin`, `ui.admin.widgets`, `ui.admin.pages`, `ui.admin.reports`, `ui.admin.builders` |
 | Runtime | bun>=1.3.12 |
 | Database | postgres, sqlite |
 | Integration Model | Actions+Resources+UI |
+
+## Installation Guidance
+
+- Required plugins: `auth-core`, `org-tenant-core`, `role-policy-core`, `dashboard-core`
+- Recommended plugins: none
+- Capability-enhancing plugins: none
+- Integration-only plugins: none
+- Suggested packs: none
+- Standalone supported: yes
+
 
 ## Capability Matrix
 
