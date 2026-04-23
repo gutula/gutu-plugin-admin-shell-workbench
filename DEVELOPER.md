@@ -38,6 +38,8 @@ Hosts the universal admin desk and turns resource, route, widget, and workspace 
 | Package Name | `@plugins/admin-shell-workbench` |
 | Manifest ID | `admin-shell-workbench` |
 | Display Name | Admin Shell Workbench |
+| Domain Group | Platform Backbone |
+| Default Category | Platform Governance / Admin Shell |
 | Version | `0.1.0` |
 | Kind | `ui-surface` |
 | Trust Tier | `first-party` |
@@ -192,6 +194,7 @@ console.log("plugin", manifest.id);
 - No dedicated integration test lane is exported in this repo today; validation currently leans on build, lint, typecheck, and test lanes.
 - No standalone plugin-owned event, job, or workflow catalog is exported yet; compose it through actions, resources, and the surrounding Gutu runtime.
 - The plugin exposes a UI surface, but not a richer admin workspace contribution module.
+- The repo does not yet export a domain parity catalog with owned entities, reports, settings surfaces, and exception queues.
 
 ### Recommended next
 

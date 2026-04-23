@@ -5,6 +5,12 @@ export default definePackage({
   kind: "ui-surface",
   version: "0.1.0",
   displayName: "Admin Shell Workbench",
+  defaultCategory: {
+    id: "platform_governance",
+    label: "Platform Governance",
+    subcategoryId: "admin_shell",
+    subcategoryLabel: "Admin Shell"
+  },
   description: "Default universal admin desk plugin.",
   extends: [],
   dependsOn: ["auth-core", "org-tenant-core", "role-policy-core", "dashboard-core"],
